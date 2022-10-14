@@ -38,4 +38,46 @@ For better understanding, read through the article by [Manuel Vivo](https://medi
 
 * Now we will start dissecting the behavior of each collector!
 
-  
+    - With `lifecycleScope`:
+        - **_Starting point_**: it starts collecting right after calling, so we can see the 0 value
+          is printed first.
+        - **_Activity in background_**: and when the activity goes to onPause and onStop, it still
+          collects value, so at the end we can see it shows all value from 0 to 10.
+
+    - With `launchWhenCreated`:
+        - **_Starting point_**: it starts collecting right after the activity is created (after
+          onCreate and before onStart), so it can't collect value 0, instead the first value is 1.
+        - **_Activity in background_**: the same as lifecycleScope, it still collects value, and at
+          the end we can see from 1 to 10.
+
+    - With `launchWhenStarted`:
+        - **_Starting point_**:
+        - **_Activity in background_**:
+
+    - With `launchWhenResumed`:
+        - **_Starting point_**:
+        - **_Activity in background_**:
+
+    - With `repeatOnLifecycle - CREATED`:
+        - **_Starting point_**:
+        - **_Activity in background_**:
+
+    - With `repeatOnLifecycle - STARTED`:
+        - **_Starting point_**:
+        - **_Activity in background_**:
+
+    - With `repeatOnLifecycle - RESUMED`:
+        - **_Starting point_**:
+        - **_Activity in background_**:
+
+    - With `flowWithLifecycle - CREATED`:
+        - _**Starting point**_:
+        - **_Activity in background_**:
+
+    - With `flowWithLifecycle - STARTED`:
+        - **_Starting point_**:
+        - **_Activity in background_**:
+
+    - With `flowWithLifecycle - RESUMED`:
+        - **_Starting point_**:
+        - **_Activity in background_**:
