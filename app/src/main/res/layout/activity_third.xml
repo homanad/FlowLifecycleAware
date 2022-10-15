@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".screens.third.ThirdActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DEADAA"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="combine - flowWithLifecycle\n" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#91BCDE"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="flowWithLifecycle - combine\n" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E7DE8E"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="map - flowWithLifecycle\n" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9EEAA1"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="flowWithLifecycle - map\n" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

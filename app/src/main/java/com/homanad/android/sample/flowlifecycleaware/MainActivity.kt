@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.homanad.android.sample.flowlifecycleaware.databinding.ActivityMainBinding
 import com.homanad.android.sample.flowlifecycleaware.screens.first.FirstActivity
 import com.homanad.android.sample.flowlifecycleaware.screens.second.SecondActivity
+import com.homanad.android.sample.flowlifecycleaware.screens.third.ThirdActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
 
             buttonSecond.setOnClickListener {
                 startActivity(Intent(this@MainActivity, SecondActivity::class.java))
+            }
+
+            buttonThird.setOnClickListener {
+                startActivity(Intent(this@MainActivity, ThirdActivity::class.java))
             }
         }
     }

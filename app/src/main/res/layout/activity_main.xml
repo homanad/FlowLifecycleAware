@@ -24,4 +24,13 @@
         android:insetBottom="0dp"
         android:text="Second activity" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Third activity" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

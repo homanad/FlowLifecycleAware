@@ -13,6 +13,13 @@
         android:theme="@style/Theme.FlowLifecycleAware"
         tools:targetApi="31">
         <activity
+            android:name=".screens.third.ThirdActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".screens.second.SecondActivity"
             android:exported="false">
             <meta-data
