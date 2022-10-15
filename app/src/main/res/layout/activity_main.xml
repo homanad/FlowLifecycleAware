@@ -5,109 +5,23 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".screens.lifecycleAware.LifecycleAwareActivity">
+    tools:context=".MainActivity">
 
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text1"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_first"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#89D0F1"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="lifecycleScope\n"
-        android:textSize="18sp" />
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="First activity" />
 
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#97E89A"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="launchWhenCreated\n"
-        android:textSize="18sp" />
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#D7BF75"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="launchWhenStarted\n"
-        android:textSize="18sp" />
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#4DD9CC"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="launchWhenResumed\n"
-        android:textSize="18sp" />
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text5"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_second"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="#97E89A"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="repeatOnLifecycle.CREATED\n"
-        android:textSize="18sp" />
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#D7BF75"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="repeatOnLifecycle.STARTED\n"
-        android:textSize="18sp" />
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#4DD9CC"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="repeatOnLifecycle.RESUMED\n"
-        android:textSize="18sp" />
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#97E89A"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="flowWithLifecycle.CREATED\n"
-        android:textSize="18sp" />
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#D7BF75"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="flowWithLifecycle.STARTED\n"
-        android:textSize="18sp" />
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/text10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#4DD9CC"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="flowWithLifecycle.RESUMED\n"
-        android:textSize="18sp" />
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Second activity" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -26,11 +26,11 @@ For better understanding, read through the article by [Manuel Vivo](https://medi
 , and here we will try above things to see what is the difference. ;)
 
 * This is my
-  stateFlow: <a href="https://github.com/homanad/FlowLifecycleAware/blob/master/app/src/main/java/com/homanad/android/sample/flowlifecycleaware/MainViewModel.kt" target="_blank">
-  MainViewModel</a>
+  stateFlow: <a href="https://github.com/homanad/FlowLifecycleAware/blob/master/app/src/main/java/com/homanad/android/sample/flowlifecycleaware/screens/first/vm/FirstViewModel.kt" target="_blank">
+  FirstViewModel</a>
 * And these are my
-  collectors: <a href="https://github.com/homanad/FlowLifecycleAware/blob/master/app/src/main/java/com/homanad/android/sample/flowlifecycleaware/MainActivity.kt" target="_blank">
-  MainActivity</a>
+  collectors: <a href="https://github.com/homanad/FlowLifecycleAware/blob/master/app/src/main/java/com/homanad/android/sample/flowlifecycleaware/screens/first/FirstActivity.kt" target="_blank">
+  FirstActivity</a>
 
 * And let's see what happens if I am trying to make the app goes to background!
 
